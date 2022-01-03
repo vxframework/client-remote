@@ -1,6 +1,6 @@
 {
-  "name": "@vxf/core",
-  "version": "1.0.0-4",
+  "name": "@vxf/clremote",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": "https://github.com/vxframework/client-remote",
