@@ -1,8 +1,9 @@
-import { IMetadataReader, Logger, Reflector } from '@vxf/core';
+import { IMetadataReader, Injectable, Logger, Reflector } from '@vxf/core';
 import { RemoteMetadata } from '../../types';
 import { REMOTE_KEY } from '../../const';
 import { RemoteListener } from '../remote-listener';
 
+@Injectable()
 export class RemoteReader implements IMetadataReader {
   public static log = true;
   private logger = new Logger('Remote');
