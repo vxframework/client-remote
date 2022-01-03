@@ -55,3 +55,5 @@ export class RPC {
     return RPC.call(this.name, method, ...args);
   }
 }
+
+global.onNet?.('vxf.rpc.response', RPC.respond);
